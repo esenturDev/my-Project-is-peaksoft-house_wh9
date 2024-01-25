@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(70deg, blue, pink);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* header */
+.header {
+  position: fixed;
+  width: 100%;
+  background: #10be10;
+}
+
+.header .header_content {
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header__logo img {
+  width: 45px;
+  height: 45px;
+}
+
+.header .header__nav {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header__nav ul {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header__nav ul li {
+  list-style: none;
+}
+
+.header .header__nav ul li a {
+  text-decoration: none;
+}
+
+/* main */
+.main {
+  padding-top: 70px;
+}
+
+/* section 1 */
+/* box 1 */
+.section_1 .box_1 {
+  margin: 20px 0;
+}
+
+.section_1 .box_1 .content {
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section_1 .box_1 .content img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.section_1 .box_1 .content .texts {
+  width: 100%;
+  max-width: 300px;
+  text-align: right;
+}
+
+.section_1 .box_1 .content .texts .text__top {
+  color: rgb(255, 55, 0);
+}
+
+.section_1 .box_1 .content .texts .text__subtitle {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+
+  color: silver;
+}
+
+/* box 2 */
+.section_1 .box_2 {
+  margin: 20px 0;
+}
+
+.section_1 .box_2 .content {
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.section_1 .box_2 .content img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.section_1 .box_2 .content .texts .text__subtitle {
+  font-size: 20px;
+  font-weight: 700;
+
+  color: silver;
+}
+
+
+.section_1 .box_2 .content .texts {
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+
+/* footer */
+.footer img {
+  margin: 20px 0;
+
+  width: 100%;
+  height: auto;
+}
